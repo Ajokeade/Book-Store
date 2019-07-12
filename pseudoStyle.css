@@ -1,0 +1,86 @@
+
+
+/* hover div  */
+/* div:hover {
+    background-color: blue;
+  } */
+/* Hover over a <div> element to show a <p> element (like a tooltip): */
+/* p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  } */
+  
+  /* div:hover p {
+    display: block;
+  } */
+
+
+/* matches any <p> element that is the first child of any element: */
+
+/* p:first-child {
+    color:purple;
+  }  */
+
+/* matches the first <i> element in all <p> elements: */
+/* p i:first-child {
+    color:red;
+  }  */
+
+
+/* matches all <i> elements in <p> elements that are the first child of another element: */
+
+/* p:first-child i {
+    color: blue;
+  }  */
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+  /* working with gradient */
+  .grad1{
+    padding: 10px;
+    background-image: linear-gradient(to right, red,blue);
+  }
+  .grad2{
+     background-image: linear-gradient(to bottom, #336666,indigo, violet);
+
+    }
+  .grad3{
+    background-image: radial-gradient(white,purple);
+  }
+.grade4 {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+.grad5 {
+  background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+#main h1{
+  color: white;
+}
+
+
+/* matches any <p> element that is the first child of any element: */
+
+p:first-child {
+    font-style: italic;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    color: white;
+  } 
+#showcase{
+  background-image: url(../images/BG3.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+
+}
+#showcase h1  {
+  font-style: italic;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: capitalize;
+  color: white;
+} 

@@ -1,0 +1,247 @@
+body{
+background-color: #f4f4f4;
+font-family: sans-serif,Arial, Helvetica;
+font:16px;
+line-height: 1.6em;
+margin:0;
+
+}
+.container{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+}
+#main-header{
+    background-color: brown;
+    color: #fff;
+}
+#main-header p{
+    
+}
+
+#navbar{
+    background-color: #333;
+    color:#fff;
+    border-bottom: #e8491d 4px solid;
+
+}
+#navbar ul{
+    list-style: none;
+    padding:0;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size:18px;
+    padding-right: 15px;
+}
+#navbar a:hover{
+    color:red;
+}
+
+#navbar a:active{
+    color:rgb(0, 255, 34);
+}
+#navbar a:visited{
+    /* color:yellow; */
+}
+#navbar .current{
+    color: #e8491d;
+
+}
+#showcase{
+    background-image: url('../images/banner18.jpg');
+    background-position: center;
+    /* height: 250px; */
+    min-height: 300px;
+    margin-bottom:50px;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    /* border-bottom: #e8491d 4px solid; */
+    border-bottom:#333 4px solid;
+    
+     /* opacity: 0.4;  */
+    /* background-image: crimson; */
+}
+#showcase  h1{
+ 
+    font-size: 30px;
+    padding:30px;
+    margin-top: 80px;
+
+    /* background-color: rgb(109, 68, 57) */
+    
+}
+#showcase  p{
+ 
+    font-size: 20px;
+    padding:20px;
+    margin-top: 30px;
+    font-style: italic;
+    word-spacing: 5px;
+
+    /* background-color: rgb(109, 68, 57) */
+    
+}
+/* .mainAsideDisplay{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 5px 5px 5px;
+} */
+#main{
+   
+    float: left;
+    width: 70%; 
+    padding: 20px 30px;
+    color: #333;
+    box-sizing: border-box;  
+}
+#main p{
+    margin-block-end: 0em;
+}
+#sidebar{
+    float: right;
+    /* width: 30%; */
+    color: #fff;
+    background-color: #333;
+    padding:  10px 5px 5px 5px;
+    margin-top: 20px;
+}
+
+/* this is applied on the home page */
+#bookArea{
+
+/* margin-left: 25px; */
+margin-top: 20px;
+
+
+padding: 10px;
+}
+.bookType{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding:10px;
+    color:rgb(12, 12, 12);   
+   
+}
+#bookArea .bookType img{
+    /*  border-radius: 25px; */
+    align-self: center;
+    /* height: 200px; */
+    widows: 90px;
+}
+
+
+/* Applied to all  pages */
+#main-footer{
+    /* background-color: #333; */
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+/* this is applied on our books page */
+.box{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* grid-column-gap: 1em; */
+    grid-gap:1em;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    align-content: center;
+   
+}
+.box  div{
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 25px;
+   /* border: #ccc 5px solid; */
+}
+.box div img{
+    height: 200px;
+    align-self: auto;
+   
+}
+.box p{
+    /* text-align: center; */
+    padding-left: 25px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+#OurBooks  li{
+    list-style: none;
+    border: #cccccc solid 1px;
+    margin-bottom: 20px;
+    background-color: darkred;
+} 
+#OurBooks  h3{
+color: white;
+padding-left: 5px;
+padding-bottom: 0px;
+}
+
+
+/* Media Queries */
+
+@media only screen  and  ( max-width: 768px){
+    #bookArea .bookType,
+    #main,
+    #sidebar{
+        float: none;
+        text-align: center;
+    }
+    .box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* padding-left: 5px; */
+        /* margin-left: 5px; */       
+    }
+#OurBooks{
+    margin-left: 5px;
+}    
+
+    #main{
+        width: 100%;
+    }
+} 
+@media only screen and  (max-width: 450px){
+    .box{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* services */
+/* .box{
+    float: left;
+    text-align: center;
+    width: 10%;
+    padding:10px;
+    color:rgb(12, 12, 12);   
+   
+} */
+
+/* meet us page */
+.person img{
+float: left;
+padding-right: 20px;
+}
+.person {
+    background-color: #fff;
+    }
+    
